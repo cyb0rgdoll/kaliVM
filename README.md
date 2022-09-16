@@ -1,41 +1,47 @@
-This rep contains my vagrant file that spins up a Kali virtual machine (using Virtual Box) 
+This repository contains my vagrant file that spins up a Kali virtual machine (using Virtual Box) 
 with a configurabe list of customizable modifications such as:
 
-    changing "vagrant ssh" to use root
-    adding swap space
-    setting BASH aliases
-    adding extra wordlists
-    installing wine
-    update & dist-upgrade
-    prepping metasploit
-    cloning useful git repos like AutoBlue and AutoRecon etc
-    installing common exploit dependecies and mingw
-    setting up UFW
-    zsh (oh-my-zsh terminal shell)
+    Changing "vagrant ssh" to use root
+    Adding swap space
+    Setting BASH aliases
+    Adding extra wordlists
+    Installing wine
+    Update & dist-upgrade
+    Prepping metasploit
+    Cloning useful git repos like AutoBlue and AutoRecon etc
+    Installing common exploit dependecies and mingw
+    Setting up UFW
+    Zsh (oh-my-zsh terminal shell)
 
-Prerequisites
+**Prerequisites**
 
 You'll need to have the following ready before you can use this:
 
     VirtualBox 6 installed and working
     Vagrant 2.x installed and working
 
-Installing
+**Installation instructions**
 
-    Clone this repo or simple download the Vagrantfile to a directory
-    Navigate to the directory, open Vagrantfile in your favorite editor to review/customize settings if needed
-    From a command shell, start the VM. The first time this runs will take some time doing provisioning.
+    Clone this repo by typing 'git clone https://github.com/cyb0rgdoll/kaliVM/Vagrantfile.git'
+    
+    or simple download the Vagrantfile to a directory or folder of your own
+    
+    Navigate to the directory, open Vagrantfile in your favorite editor to review/customize settings if need to
+    From Windows Command Prompt or command shell, start the Virtual machine by typing:
     
     vagrant up
 
-    Vagrant will download the base Kali box, configure the VM in virtualbox, run provisioning scripts. 
-    The first time this runs this can take some time but should not require any interaction.
+    The first time this runs will take some time doing provisioning and not require any further interaction. Vagrant will download the base Kali box,     configure the VM in virtualbox and run provisioning scripts. 
 
-    Login, change the root password and use Kali
+    When ready, login, change the root password and by using the command:
+    
+    sudo passwd root
+    
+    When prompted enter your systems root command. If this is a fresh install of Kali, the default password will be set to 'kali' or 'vagrant'
 
     vagrant ssh
 
-Usage
+**Usage**
 
 You can use your VM headless or open the virtualbox gui and attach to the running vm to login with a graphical UI.
 
