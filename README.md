@@ -1,3 +1,5 @@
+KaliVM - Cyb0rgdoll's Vagrant file version 1
+
 This repository contains my vagrant file that spins up a Kali virtual machine (using Virtual Box) 
 Configurabe list of customizable modifications and scripts includes:
 
@@ -13,14 +15,14 @@ Configurabe list of customizable modifications and scripts includes:
     Setting up UFW
     Zsh (oh-my-zsh terminal shell)
 
-**Prerequisites**
+-- **Prerequisites** --
 
 You'll need to have the following ready before you can use this:
 
     VirtualBox 6 installed
     Vagrant 2.x installed
 
-**Installation instructions**
+-- **Installation instructions** --
 
 Clone this repo by typing:
     
@@ -43,7 +45,7 @@ When prompted enter your systems root command. If this is a fresh install of Kal
 
   `vagrant ssh`
 
-**Usage**
+-- **Usage** --
 
 You can use your VM headless or open the virtualbox gui and attach to the running vm to login with a graphical UI.
 X11 forwarding is an option in the Vagrantfile for headless usage, easier if your host is linux.
