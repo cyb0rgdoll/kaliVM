@@ -1,7 +1,8 @@
 KaliVM - Cyb0rgdoll's Vagrant file version 1
 
-This repository contains my vagrant file that spins up a Kali virtual machine (using Virtual Box) 
-Configurabe list of customizable modifications and scripts includes:
+This repository contains my vagrant file that spins up a Kali virtual machine on Virtual Box.
+
+Configurabe list of customizable modifications, tools & scripts includes:
 
     Changing "vagrant ssh" to use root
     Adding swap space
@@ -14,6 +15,7 @@ Configurabe list of customizable modifications and scripts includes:
     Installing common exploit dependecies and mingw
     Setting up UFW
     Zsh (oh-my-zsh terminal shell)
+    IntRec-Pack, Intelligence and Reconnaissance Package Installer (author: NullArray/Vector)
 
 -- **Prerequisites** --
 
@@ -26,7 +28,7 @@ You'll need to have the following ready before you can use this:
 
 Clone this repo by typing:
     
-`git clone https://github.com/cyb0rgdoll/kaliVM/Vagrantfile.git`
+`git clone https://github.com/cyb0rgdoll/kaliVM/`
     
 or simple download the Vagrantfile to a directory or folder of your own
     
