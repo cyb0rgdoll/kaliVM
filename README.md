@@ -47,7 +47,7 @@ When prompted enter your systems root command. If this is a fresh install of Kal
 
     vagrant ssh
 
-**USAGE**
+# **USAGE**
 
 You can use your VM headless or open the virtualbox gui and attach to the running vm to login with a graphical UI.
 X11 forwarding is an option in the Vagrantfile for headless usage, easier if your host is linux.
