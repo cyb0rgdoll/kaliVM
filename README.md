@@ -2,7 +2,7 @@
 
 This repository contains my vagrant file that spins up a Kali virtual machine on Virtual Box.
 
-Configurable list of customizable modifications, tools & scripts includes:
+# Configurable list of customizable modifications, tools & scripts includes:
 
     Changing "vagrant ssh" to use root
     Adding swap space
@@ -17,14 +17,14 @@ Configurable list of customizable modifications, tools & scripts includes:
     Zsh (oh-my-zsh terminal shell)
     IntRec-Pack, Intelligence and Reconnaissance Package Installer (author: NullArray/Vector)
 
-**Prerequisites**
+# **Prerequisites**
 
 You'll need to have the following ready before you can use this:
 
     VirtualBox 6 installed
     Vagrant 2.x installed
 
-**Installation instructions**
+# **Installation instructions**
 
 Clone this repo by typing:
     
